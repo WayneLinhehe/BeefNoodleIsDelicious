@@ -1,18 +1,51 @@
-<?xml version="1.0"?>
-<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
-targetNamespace="https://www.w3schools.com"
-xmlns="https://www.w3schools.com"
-elementFormDefault="qualified">
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
 
-<xs:element name="note">
-  <xs:complexType>
-    <xs:sequence>
-      <xs:element name="to" type="xs:string"/>
-      <xs:element name="from" type="xs:string"/>
-      <xs:element name="heading" type="xs:string"/>
-      <xs:element name="body" type="xs:string"/>
-    </xs:sequence>
-  </xs:complexType>
-</xs:element>
+<xsd:element name="rss">
+<xsd:complexType>
+<xsd:sequence>
+<xsd:element name="channel" type="rssDetails"/>
+</xsd:sequence>
+</xsd:complexType>
+</xsd:element>
 
-</xs:schema>
+
+<xsd:element name="channel">
+<xsd:complexType>
+<xsd:sequence>
+<xsd:element name="title" type="rssDetails"/>
+<xsd:element name="link" type="rssDetails"/>
+<xsd:element name="description" type="rssDetails"/>
+<xsd:element name="language" type="rssDetails"/>
+<xsd:element name="pubDate" type="rssDetails"/>
+<xsd:element name="copyright" type="rssDetails"/>
+<xsd:element name="ttl" type="rssDetails"/>
+<xsd:element name="item" type="rssDetails"/>
+</xsd:sequence>
+</xsd:complexType>
+</xsd:element>
+
+
+<xsd:element name="item">
+<xsd:complexType>
+<xsd:sequence>
+<xsd:element name="title" type="rssDetails"/>
+<xsd:element name="link" type="rssDetails"/>
+<xsd:element name="description" type="rssDetails"/>
+<xsd:element name="pubDate" type="rssDetails"/>
+<xsd:element name="author" type="rssDetails"/>
+<xsd:element name="source" type="rssDetails"/>
+<xsd:element name="NewsID" type="rssDetails"/>
+<xsd:element name="item" type="rssDetails"/>
+<xsd:element name="DeptName" type="rssDetails"/>
+<xsd:element name="FileList" type="rssDetails"/>
+<xsd:element name="ImageList" type="rssDetails"/>
+<xsd:element name="guid" type="rssDetails"/>
+</xsd:sequence>
+</xsd:complexType>
+</xsd:element>
+
+
+
+
+</xsd:schema>

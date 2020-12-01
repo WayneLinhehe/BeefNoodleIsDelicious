@@ -1,11 +1,7 @@
 <?xml version="1.0"?>
-
-<note
-xmlns="https://www.w3schools.com"
-xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-xsi:schemaLocation="https://waynelinhehe.github.io/BeefNoodleIsDelicious/rss-56-1.xsd">
-  <to>Tove</to>
-  <from>Jani</from>
-  <heading>Reminder</heading>
-  <body>Don't forget me this weekend!</body>
-</note>
+<rss version="2.0"
+xmlns:g="http://base.google.com/ns/1.0">
+<channel>
+<title>資料動態饋給名稱</title> <link>http://www.example.com</link> <description>內容說明</description> <item> <title>紅色羊毛上衣</title> <link> http://www.example.com/item1-info-page.html</link> <description>這件舒適柔軟的毛衣能為寒冷的冬夜帶來溫暖。</description>
+<g:image_link>http://www.example.com/image1.jpg</g:image_link> <g:price>25</g:price> <g:condition>全新</g:condition> <g:id>1a</g:id>
+</item> </channel> </rss>
