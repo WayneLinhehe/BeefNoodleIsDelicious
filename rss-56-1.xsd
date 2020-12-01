@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema>
+
+<xsd:element name="channel">
+<xsd:complexType>
+<xsd:sequence>
+<xsd:element name="title" type="channelDetails"/>
+<xsd:element name="link" type="channelDetails"/>
+<xsd:element name="description" type="channelDetails"/>
+<xsd:element name="language" type="channelDetails"/>
+<xsd:element name="pubDate" type="channelDetails"/>
+<xsd:element name="copyright" type="channelDetails"/>
+<xsd:element name="ttl" type="channelDetails"/>
+<xsd:element name="item" type="channelDetails"/>
+</xsd:sequence>
+</xsd:complexType>
+</xsd:element>
+
+<xsd:element name="item">
+<xsd:complexType>
+<xsd:sequence>
+<xsd:element name="title" type="channelDetails"/>
+<xsd:element name="link" type="channelDetails"/>
+<xsd:element name="description" type="channelDetails"/>
+<xsd:element name="pubDate" type="channelDetails"/>
+<xsd:element name="author" type="channelDetails"/>
+<xsd:element name="source" type="channelDetails"/>
+<xsd:element name="NewsID" type="channelDetails"/>
+<xsd:element name="item" type="channelDetails"/>
+<xsd:element name="DeptName" type="channelDetails"/>
+<xsd:element name="FileList" type="channelDetails"/>
+<xsd:element name="ImageList" type="channelDetails"/>
+<xsd:element name="guid" type="channelDetails"/>
+
+</xsd:sequence>
+</xsd:complexType>
+</xsd:element>
+
+
+
+
+</xsd:schema>

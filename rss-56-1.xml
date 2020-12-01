@@ -25,7 +25,7 @@
 <DeptName>外交部領事事務局</DeptName>
 <FileList/>
 <ImageList/>
-<guid>1111</guid > 
+<guid>https://www.boca.gov.tw</guid > 
 </item>
 <item>
 <title>
@@ -44,7 +44,7 @@
 <ImageList>
 <Image name="110年1月11日發行新版護照" url="https://www.boca.gov.tw/Public/Images/202011/0282011300854d0a45.png"/>
 </ImageList>
-<guid>2222</guid > 
+<guid>https://www.boca.gov.tw</guid > 
 </item>
 </channel>
 </rss>
