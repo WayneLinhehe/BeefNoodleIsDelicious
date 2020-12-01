@@ -1,50 +1,11 @@
 <?xml version="1.0"?>
-<rss version="2.0" xmlns='https://waynelinhehe.github.io/BeefNoodleIsDelicious/rss-56-1.xsd'>
-<channel>
-<title>
-<![CDATA[ 最新消息 - 外交部領事事務局全球資訊網 ]]>
-</title>
-<link>https://www.boca.gov.tw/np-56-1.html</link>
-<description>外交部領事事務局全球資訊網 RSS channel.</description>
-<language>zh-tw</language>
-<pubDate>Mon, 30 Nov 2020 09:27:00 GMT</pubDate>
-<copyright>RSS發行者</copyright>
-<ttl>20</ttl>
-<item>
-<title>
-<![CDATA[ (旅遊警示燈號：紅色)多明尼加政府更新COVID-19防疫措施，外交部提醒旅外國人注意 ]]>
-</title>
-<link>https://www.boca.gov.tw/cp-56-6092-998f0-1.html</link>
-<description>
-<![CDATA[ <p>1.多明尼加政府宣布自2020年11月23日起再次延長全國緊急狀態45日至2021年1月6日，宵禁時間為平日晚間9時至翌日清晨5時，周末晚間7時至翌日清晨5時，並視疫情發展調整相關措施，海、空對外交通則不受宵禁措施限制。多國COVID-19案例數仍持續增加，呼籲赴多國人持續配戴口罩並保持社交距離。<br /> 2.外交部已自3月21日凌晨起將多國旅遊警示調整為「紅色」，已在多國國人請隨時注意多國最新防疫規定，並加強自我健康管理。<br /> 3.國人在多明尼加境內倘遇急難需要協助，請即撥打我駐邁阿密辦事處緊急聯絡電話：+1-786-253-7332，或撥打我駐瓜地馬拉大使館緊急聯絡電話：+502-5202-5920；或請國內親友撥打「外交部緊急聯絡中心」電話0800-085-095，以獲得必要協助。</p> <p>*外交部旅遊警示分級表(<a href="https://www.boca.gov.tw/sp-trwa-list-1.html">https://www.boca.gov.tw/sp-trwa-list-1.html</a>)</p> ]]>
-</description>
-<pubDate>Mon, 30 Nov 2020 09:27:00 GMT</pubDate>
-<author>qq@gmail.com</author>
-<source url="text">https://www.boca.gov.tw/cp-56-6092-998f0-1.html</source>
-<NewsID>6092</NewsID>
-<DeptName>外交部領事事務局</DeptName>
-<FileList/>
-<ImageList/>
-<guid>https://www.boca.gov.tw</guid > 
-</item>
-<item>
-<title>
-<![CDATA[ 外交部將於110年1月11日起發行新版晶片護照，歡迎國人踴躍申請 ]]>
-</title>
-<link>https://www.boca.gov.tw/cp-56-6090-dc8f2-1.html</link>
-<description>
-<![CDATA[ <p>2020/11/30</p> <p>第283號新聞稿</p> <p>外交部於本年9月2日正式對外宣布新版護照封面版本，在保留現行版本的元素與架構下，放大「TAIWAN」字樣，將英文國名「REPUBLIC OF CHINA」環繞於國徽外圈，進一步提升晶片護照封面的「台灣」辨識度。外交部訂於明(110)年1月11日起正式發行新版護照，不論於國內或駐外館處均可提出申請。</p> <p>&nbsp;</p> <p>發行日當天到外交部領事事務局或外交部中部、南部、東部及雲嘉南辦事處完成送件者，除可獲得限量精美小禮物外，當天中午12時前於國內上述各地點完成送件，有機會申領到前100號的新版晶片護照。外交部將於當天下午以電腦抽出，並於外交部網站公告結果。</p> <p>&nbsp;</p> <p>民眾手上的護照無論效期還有多久，都歡迎申換新版晶片護照。如果不申換也無需擔心，可以繼續使用至護照效期截止日。新版晶片護照規費仍維持每本收費新臺幣1,300元(未滿14歲孩童每本新臺幣900元)，申辦護照條件及流程都沒有改變。</p> <p>&nbsp;</p> <p>外交部也已請我駐外館處通知各國政府、機場港口海關、移民局、「國際航空運輸協會」(International Air Transport Association,簡稱 IATA)及航空公司等，給予持用新版晶片護照國人通關便利。(E)</p> ]]>
-</description>
-<pubDate>Mon, 30 Nov 2020 00:41:00 GMT</pubDate>
-<author>qq@gmail.com</author>
-<source url="text">https://www.boca.gov.tw/cp-56-6090-dc8f2-1.html</source>
-<NewsID>6090</NewsID>
-<DeptName>外交部領事事務局</DeptName>
-<FileList/>
-<ImageList>
-<Image name="110年1月11日發行新版護照" url="https://www.boca.gov.tw/Public/Images/202011/0282011300854d0a45.png"/>
-</ImageList>
-<guid>https://www.boca.gov.tw</guid > 
-</item>
-</channel>
-</rss>
+
+<note
+xmlns="https://www.w3schools.com"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="https://waynelinhehe.github.io/BeefNoodleIsDelicious/rss-56-1.xsd">
+  <to>Tove</to>
+  <from>Jani</from>
+  <heading>Reminder</heading>
+  <body>Don't forget me this weekend!</body>
+</note>
