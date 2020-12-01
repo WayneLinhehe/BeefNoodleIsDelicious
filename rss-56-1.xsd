@@ -1,37 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
 
-<xsd:element name="channel">
+<xsd:element name="rss">
 <xsd:complexType>
 <xsd:sequence>
-<xsd:element name="title" type="channelDetails"/>
-<xsd:element name="link" type="channelDetails"/>
-<xsd:element name="description" type="channelDetails"/>
-<xsd:element name="language" type="channelDetails"/>
-<xsd:element name="pubDate" type="channelDetails"/>
-<xsd:element name="copyright" type="channelDetails"/>
-<xsd:element name="ttl" type="channelDetails"/>
-<xsd:element name="item" type="channelDetails"/>
+<xsd:element name="channel" type="rssDetails"/>
 </xsd:sequence>
 </xsd:complexType>
 </xsd:element>
 
+
+<xsd:element name="channel">
+<xsd:complexType>
+<xsd:sequence>
+<xsd:element name="title" type="rssDetails"/>
+<xsd:element name="link" type="rssDetails"/>
+<xsd:element name="description" type="rssDetails"/>
+<xsd:element name="language" type="rssDetails"/>
+<xsd:element name="pubDate" type="rssDetails"/>
+<xsd:element name="copyright" type="rssDetails"/>
+<xsd:element name="ttl" type="rssDetails"/>
+<xsd:element name="item" type="rssDetails"/>
+</xsd:sequence>
+</xsd:complexType>
+</xsd:element>
+
+
 <xsd:element name="item">
 <xsd:complexType>
 <xsd:sequence>
-<xsd:element name="title" type="channelDetails"/>
-<xsd:element name="link" type="channelDetails"/>
-<xsd:element name="description" type="channelDetails"/>
-<xsd:element name="pubDate" type="channelDetails"/>
-<xsd:element name="author" type="channelDetails"/>
-<xsd:element name="source" type="channelDetails"/>
-<xsd:element name="NewsID" type="channelDetails"/>
-<xsd:element name="item" type="channelDetails"/>
-<xsd:element name="DeptName" type="channelDetails"/>
-<xsd:element name="FileList" type="channelDetails"/>
-<xsd:element name="ImageList" type="channelDetails"/>
-<xsd:element name="guid" type="channelDetails"/>
-
+<xsd:element name="title" type="rssDetails"/>
+<xsd:element name="link" type="rssDetails"/>
+<xsd:element name="description" type="rssDetails"/>
+<xsd:element name="pubDate" type="rssDetails"/>
+<xsd:element name="author" type="rssDetails"/>
+<xsd:element name="source" type="rssDetails"/>
+<xsd:element name="NewsID" type="rssDetails"/>
+<xsd:element name="item" type="rssDetails"/>
+<xsd:element name="DeptName" type="rssDetails"/>
+<xsd:element name="FileList" type="rssDetails"/>
+<xsd:element name="ImageList" type="rssDetails"/>
+<xsd:element name="guid" type="rssDetails"/>
 </xsd:sequence>
 </xsd:complexType>
 </xsd:element>
