@@ -1,8 +1,8 @@
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
 
-<xs:element name="image_link" type="xs:anyURI"/>
-<xs:element name="price" type="xs:string"/>
-<xs:element name="condition" type="xs:string"/>
-<xs:element name="id" type="xs:string"/>
+<xs:element name="NewsID" type="xs:string"/>
+<xs:element name="DeptName" type="xs:string"/>
+<xs:element name="FileList" type="xs:string"/>
+<xs:element name="ImageList" type="xs:string"/>
 
 </xs:schema>
