@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <rss version="2.0"
-xmlns:g="http://base.google.com/ns/1.0">
+xmlns:g="https://ns.sentiweb.fr/rss-sw/1.0/google-base.xsd">
 <channel>
 <title>資料動態饋給名稱</title> <link>http://www.example.com</link> <description>內容說明</description> <item> <title>紅色羊毛上衣</title> <link> http://www.example.com/item1-info-page.html</link> <description>這件舒適柔軟的毛衣能為寒冷的冬夜帶來溫暖。</description>
 <g:image_link>http://www.example.com/image1.jpg</g:image_link> <g:price>25</g:price> <g:condition>全新</g:condition> <g:id>1a</g:id>
