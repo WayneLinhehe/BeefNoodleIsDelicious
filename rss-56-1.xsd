@@ -1,8 +1,19 @@
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
 
 <xs:element name="NewsID" type="xs:string"/>
+
 <xs:element name="DeptName" type="xs:string"/>
-<xs:element name="FileList" type="xs:string"/>
-<xs:element name="ImageList" type="xs:string"/>
+
+<xs:element name="FileList">
+	<xs:sequence>
+		<xs:element name="File" type="xs:string"/>
+	</xs:sequence>
+</xs:element>
+
+<xs:element name="ImageList">
+	<xs:sequence>
+		<xs:element name="Image" type="xs:string"/>
+	</xs:sequence>
+</xs:element>
 
 </xs:schema>
