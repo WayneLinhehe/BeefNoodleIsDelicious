@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <rss version="2.0">
-<channel>
+<channel xsi:noNamespaceSchemaLocation='city.xsd'>
 <title>
 <![CDATA[ 最新消息 - 外交部領事事務局全球資訊網 ]]>
 </title>
