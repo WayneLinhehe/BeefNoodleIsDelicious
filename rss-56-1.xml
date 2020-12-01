@@ -58,9 +58,9 @@ xmlns:ex="https://waynelinhehe.github.io/BeefNoodleIsDelicious/rss-56-1.xsd">
 <ex:NewsID>6090</ex:NewsID>
 <ex:DeptName>外交部領事事務局</ex:DeptName>
 
-<ImageList>
-<Image name="110年1月11日發行新版護照" url="https://www.boca.gov.tw/Public/Images/202011/0282011300854d0a45.png"/>
-</ImageList>
+<ex:ImageList>
+<ex:Image name="110年1月11日發行新版護照" url="https://www.boca.gov.tw/Public/Images/202011/0282011300854d0a45.png"/>
+</ex:ImageList>
 </item>
 <item>
 <title>
@@ -140,10 +140,10 @@ xmlns:ex="https://waynelinhehe.github.io/BeefNoodleIsDelicious/rss-56-1.xsd">
 <source url="text">http://www.boca.gov.tw/cp-56-5248-791bd-1.html</source>
 <ex:NewsID>5248</ex:NewsID>
 <ex:DeptName>外交部領事事務局</ex:DeptName>
-<FileList>
-<File name="各國因應(COVID-19)疫情相關措施一覽表-20201125-1050" url="https://www.boca.gov.tw/dl-2223-d16657bb9bdd4bf48e3be7fce22ca5fe.html"/>
-<File name="各國因應(COVID-19)疫情相關措施一覽表-20201125-1050" url="https://www.boca.gov.tw/dl-2224-62f33b9535ab4ea18e793809038b3410.html"/>
-</FileList>
+<ex:FileList>
+<ex:File name="各國因應(COVID-19)疫情相關措施一覽表-20201125-1050" url="https://www.boca.gov.tw/dl-2223-d16657bb9bdd4bf48e3be7fce22ca5fe.html"/>
+<ex:File name="各國因應(COVID-19)疫情相關措施一覽表-20201125-1050" url="https://www.boca.gov.tw/dl-2224-62f33b9535ab4ea18e793809038b3410.html"/>
+</ex:FileList>
 
 </item>
 <item>
